@@ -1,5 +1,6 @@
 # Source: https://github.com/logpai/bugrepo/blob/master/Thunderbird/mozilla_thunderbird.csv
-#32551 records
+# 32551 records
+# Content as follows:
 
 Issue_id,Priority,Component,Duplicated_issue,Title,Description,Status,Resolution,Version,Created_time,Resolved_time
 35689,P3,Message Reader UI,,Newsgroup postings dont linkify newsgroup header (like 4.x).,Using 2000-04-12 m15 commercial builds; ; This maybe something were not planning for seamonkey; but ...; ; In 4.x; a displayed newsgroup message will show the Newsgroup: header as; linkified and when moused over will display the full news: or snews: url with; path to which the message was posted.; ; Seamonkey doesnt do this.; ; 1.  Go to a newsgroup in 4.x and select a message. Mouse over the Newsgroups:; header content (newsgroup name to which the message was posted).;     Result:  news or snews url is displayed in the status bar text.; 2.  Open that message to a separate 4.x message window.; 3.  Close the 3-pane/main 4.x mail window.; 4.  Click to follow linkified newsgroup header in the open standalone message; window.;     Result:  main/3-pane mail window opens to the said newsgroup.; 5.  Do the same procedure(s) in seamonkey. (standalone mail window not yet; operable in m15 builds).;     Result:  newsgroup header content is not linkified. No url displayed in; status bar when you mouse over the newsgroup name in message header.,RESOLVED,FIXED,unspecified,2000-04-12 17:25:04 -0700,2010-05-13 07:53:25 -0700
